@@ -41,11 +41,11 @@ public static  void initialization() {
 	  //String browsername = prop.getProperty("browser");
 	  
 	  if(browsername.equals("chrome")) {
-		  System.setProperty("webdriver.chrome.driver","\\C:\\Users\\jahan\\OneDrive\\Desktop\\Driver\\chromedriver.exe\\");
+		  System.setProperty("webdriver.chrome.driver","C:\\\\auto\\\\chromedriver.exe");
 		driver = new ChromeDriver();
 	  }
 	  else if(browsername.equals("FF")){
-		  System.setProperty("webdriver.gecko.driver","\\C:\\Users\\jahan\\OneDrive\\Desktop\\Driver\\chromedriver.exe\\");
+		  System.setProperty("webdriver.gecko.driver","C:\\\\auto\\\\firefoxdriver.exe");
 		driver = new FirefoxDriver();
 	  
 
